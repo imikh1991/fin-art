@@ -1,36 +1,36 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './style.css'
 
-function Home() {
+function Welcome() {
   const [count, setCount] = useState(0);
 
-  return ( <div>
+  return ( 
+  <div>
     <main className="container__features">
       <h1 className="visually-hidden">Финансовое бюро консалтинг</h1>
-  <section className="features">
+  <section className="features__container">
     <h2 className="visually-hidden">Преимущества</h2>
     <ul className="features-list">
       <li className="feature-item">
-        <h3>Быстро</h3>
+        <h3>Пивнев Сергей</h3>
         <p>Мы делаем свою работу быстро — два часа пройдет незаметно и вы счатливый <br/> обладатель бизнес плана на всю жизнь</p>
       </li>
 
       <li className="feature-item">
-        <h3>Круто</h3>
+        <h3>Куприянова Полина</h3>
         <p>Забудьте как вы жили раньше мы сделаем из вам звезду футбола или кино во <br/> всяком случае финансово!</p>
       </li>
 
       <li className="feature-item">
-        <h3> Дорого</h3>
+        <h3> Тимофей Кобетяк</h3>
         <p>Наши мастера — профессионалы своего дела и не могут стоить дешево, к тому же, разве цена не дает вам определенный статус? </p>
       </li>
     </ul>
   </section>
 
   <div className="index-columns">
-    <section className="news">
+    <section className="news__container">
       <h2> Новости </h2>
       <ul className="news-list">
         <li className="news-item">
@@ -45,7 +45,7 @@ function Home() {
     <a className="button" href="news.html">Все новости</a>
     </section>
 
-    <section className="gallery">
+    <section className="gallery__container">
       <h2>Принимаем оплату криптовалютой</h2>
       <div className="gallery-container">
         <figure className="gallery-content">
@@ -60,7 +60,7 @@ function Home() {
   </div>
 
   <div className="index-columns">
-    <section className="contacts">
+    <section className="contacts__container">
       <h2> Контактная информация</h2>
       <p>
         FIN ART 
@@ -77,7 +77,7 @@ function Home() {
       <a className="button" href="contacts.html">Обратная связь</a>
     </section>
 
-    <section className="appointment">
+    <section className="appointment__container">
       <h2>Записаться</h2>
       <p className="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони консультации</p>
       <form className="appointment-form" action="https://echo.htmlacademy.ru" method="POST">
@@ -106,7 +106,7 @@ function Home() {
 </main>
 
   <footer className="main-footer">
-    <div className="container">
+    <div className="container__container">
       <div className ="footer-contacts">
       <h2 className="content-column-title">Контактная информация</h2>
       <p>
@@ -145,4 +145,4 @@ function Home() {
 };
     
 
-export default Home;
+export default Welcome;

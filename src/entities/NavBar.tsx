@@ -1,9 +1,8 @@
 import { NavLink } from 'react-router-dom';
 // import styles from './NavBar.css';
-import '../pages/style.css'
 export const NavBar = () => {
   return (
-    <header className="main-header">
+    <header className="main-header__container">
       <nav className="main-navigation">
         <a className="main-header-logo">
           <img src="src/assets/svg-6.svg" alt="Logo"/>
