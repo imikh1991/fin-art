@@ -3,11 +3,11 @@ import Footer from 'entities/footer';
 import Header from 'entities/header';
 import MainHeroImage from 'entities/mainHeroImage';
 import MainHero from 'entities/mainHero';
+import HeroSection from 'entities/heroSection';
 // import NotFound from 'pages/404';
 // import { lazy } from 'react';
 // import { Route, Routes } from 'react-router-dom';
 // import classes from './style.module.scss';
-
 // const WelcomePage = lazy(() => import('./welcome'));
 
 export default function Routing() {
@@ -20,13 +20,12 @@ export default function Routing() {
           >
             <Header />
             <MainHero />
-            <MainHeroImage />
-            <Footer />
           </div>
         </div>
+        <MainHeroImage />
       </div>
+      <HeroSection />
+      <Footer />
     </div>
   );
-};
-
-
+}

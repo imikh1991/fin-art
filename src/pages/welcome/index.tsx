@@ -3,14 +3,11 @@
 function Welcome() {
   // const [count, setCount] = useState(0);
 
-  return ( 
-  <>
-    <main className="container__features">
-    </main>
-</>
-
-)
+  return (
+    <>
+      <main className="container__features"></main>
+    </>
+  );
 }
-    
 
 export default Welcome;

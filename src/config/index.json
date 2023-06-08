@@ -1,7 +1,7 @@
 {
     "company": {
       "name": "Fin-Art",
-      "logo": "src/assets/img/logo.png"
+      "logo": "src/assets/img/logo-crop.png"
     },
     "navigation": [
       {
@@ -31,9 +31,9 @@
       "href": "#"
     },
     "mainHero": {
-      "title": "Fin Art cвобода выбора",
-      "subtitle": "Организация имени Ордена Трудового Красного Знамени",
-      "description": " Мы — команда профессионалов HoReCa: Буквы и цифры и рифмы  We are a team of HORECA professionals.We devote our whole life to working with people. Finance is an art...Managing the organizations finances, reading and controlling them correctly is about the same as understanding painting. You need to know the tricks, rules and approaches.",
+      "title": "Финансы – это искусство",
+      "subtitle": "Мы — команда профессионалов HoReCa",
+      "description": " Проведем аудит управленческой отчетности (на основе финансового моделирования)  We are a team of HORECA professionals.We devote our whole life to working with people. Finance is an art...Managing the organizations finances, reading and controlling them correctly is about the same as understanding painting. You need to know the tricks, rules and approaches.",
       "img": "src/assets/img/happyTeam.jpeg",
       "primaryAction": {
         "text": "Get started",
@@ -44,6 +44,26 @@
         "href": "mailto:ilya.mikhaylyukov@gmail.com?subject=Hello World!"
       }
     },
+
+    "team": {
+      "title": "My Fin-Art Team ",
+      "people": [
+        {
+          
+    "name": "Сергей Пивнев",
+    "role": "Генеральный директор компании FIN.ART, опыт в ресторанном консалтинге более 15 лет. ",
+    "imageUrl":
+      "src/assets/img/team-member-1.png"
+        },
+        {   
+    "name": "Тимофей Кобетяк",
+    "role": "Шеф-повар, опыт более 10 лет. Работал в ресторане «Зайка» (авторская кухня) ",
+    "imageUrl":
+    "src/assets/img/team-member-2.png"
+        }
+      ]
+    },
+
     "product": {
       "title": "React landing for Fin-Art ",
       "items": [
