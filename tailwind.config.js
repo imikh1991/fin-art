@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: false,
   theme: {
     fontSize: {

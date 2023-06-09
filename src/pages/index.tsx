@@ -1,5 +1,5 @@
 // import React from 'react';
-import Footer from 'entities/footer';
+import About from 'entities/footer';
 import Header from 'entities/header';
 import MainHeroImage from 'entities/mainHeroImage';
 import MainHero from 'entities/mainHero';
@@ -25,7 +25,7 @@ export default function Routing() {
         <MainHeroImage />
       </div>
       <HeroSection />
-      <Footer />
+      <About />
     </div>
   );
 }
