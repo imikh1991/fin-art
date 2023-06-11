@@ -17,12 +17,9 @@
         "name": "Продукт",
         "href": "product"
       },
+
       {
-        "name": "Инструменты",
-        "href": "tools"
-      },
-      {
-        "name": "Видео",
+        "name": "Воркшопы",
         "href": "video"
       }
     ],
@@ -34,7 +31,7 @@
       "title": "Финансы – это искусство",
       "subtitle": "Мы — команда профессионалов HoReCa",
       "description": " Проведем аудит управленческой отчетности (на основе финансового моделирования)  We are a team of HORECA professionals.We devote our whole life to working with people. Finance is an art...Managing the organizations finances, reading and controlling them correctly is about the same as understanding painting. You need to know the tricks, rules and approaches.",
-      "img": "/img/happyTeam.jpeg",
+      "img": "/img/bg-img.jpeg",
       "primaryAction": {
         "text": "Get started",
         "href": "#"

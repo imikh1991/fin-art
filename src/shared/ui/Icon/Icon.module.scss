@@ -1,0 +1,34 @@
+.root {
+    position: relative;
+    height: 24px;
+    width: 24px;
+  
+    &_clickable {
+      cursor: pointer;
+    }
+  
+    &_clickable:hover,
+    &_clickable:active {
+      background-color: var(--color-black);
+      border-radius: 8px;
+    }
+  }
+
+  @keyframes loader-rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loader {
+    border-right-color: transparent;
+    animation: loader-rotate 1s linear infinite;
+}
+  
+  .icon {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }

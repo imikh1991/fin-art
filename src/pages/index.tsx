@@ -1,9 +1,8 @@
-// import React from 'react';
-import About from 'entities/footer';
-import Header from 'entities/header';
-import MainHeroImage from 'entities/mainHeroImage';
-import MainHero from 'entities/mainHero';
-import HeroSection from 'entities/heroSection';
+'use client';
+// import { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Welcome from './welcome';
+import NotFound from './404';
 // import NotFound from 'pages/404';
 // import { lazy } from 'react';
 // import { Route, Routes } from 'react-router-dom';
@@ -12,20 +11,9 @@ import HeroSection from 'entities/heroSection';
 
 export default function Routing() {
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-background`}>
-        <div className="max-w-7xl mx-auto">
-          <div
-            className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
-          >
-            <Header />
-            <MainHero />
-          </div>
-        </div>
-        <MainHeroImage />
-      </div>
-      <HeroSection />
-      <About />
-    </div>
+    <Routes>
+      <Route path="/" element={<Welcome />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
