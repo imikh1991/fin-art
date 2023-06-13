@@ -12,12 +12,10 @@
         "name": "Команда",
         "href": "team"
       },
-  
       {
         "name": "Продукт",
         "href": "product"
       },
-
       {
         "name": "Воркшопы",
         "href": "video"
@@ -62,44 +60,74 @@
     },
 
     "product": {
-      "title": "React landing for Fin-Art ",
+      "title": "Команда профессионалов в сфере HoReCa",
       "items": [
         {
-          "title": "A plug n play template",
-          "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-          "img": "/assets/images/product1.jpg"
+          "title": "Комплексный аудит проекта",
+          "description": "Проведем юридическую подготовку бизнеса к открытию ",
+          "img": "/img/product1.jpg"
         },
         {
-          "title": "Make it your own!",
-          "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-          "img": "/assets/images/product2.jpg"
+          "title": "Составление финансовой модели",
+          "description": "Составим бизнес-план для привлечения инвесторов и сделаем все красиво",
+          "img": "/img/product2.jpg"
         }
       ]
     },
     "features": {
-      "title": "Latest & greatest ",
-      "subtitle": "All the best technologies out there!",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+      "title": "Услуги команды Fin.Art ",
+      "subtitle": "Мы поможем запустить успешный старт-ап проект в сфере HoReCa",
+      "description": "Спасем падающие выручки в действующем бизнес",
       "items": [
         {
-          "name": "React.js",
-          "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-          "icon": "/assets/images/react.png"
+          "name": "Комплексный аудит проекта HoReCa ",
+          "description": "Анализ инвестиций и бизнес-плана. Эффективность операционной деятельности",
+          "icon": "FingerPrintIcon"
         },
         {
-          "name": "Tailwind",
-          "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-          "icon": "/assets/images/tailwindcss.svg"
+          "name": "Составление финансовой  модели",
+          "description": "Мы проанализируем финансовые результаты и обозначим точки роста",
+          "icon": "FingerPrintIcon"
         },
         {
-          "name": "Next.js",
-          "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-          "icon": "/assets/images/nextjs.svg"
+          "name": "Рассчет плановых ивестиций ",
+          "description": "Проведем комплексный анализ рынка, соберем коммерческие предложения и поможем принять окончательное решение.",
+          "icon": "FingerPrintIcon"
         },
         {
-          "name": "Typescript",
-          "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-          "icon": "/assets/images/ts.png"
+          "name": "Маркетинговый и рыночный анализ",
+          "description": "Проводим анализ конкурентов, целевой аудитории, изучаем маркетинг",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Составление бизнес-плана для привлечения инвесторов ",
+          "description": "Мы подготовим полный бизнес-план для привлечения инвестиций в ваш бизнес. Наш бизнес-план составлен по общепринятым международным стандартам и отвечает всем необходимым требованиям",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Юридическая подготовка к открытию бизнеса",
+          "description": "Проводим регистрацию и подготовку договоров аденды и регистрацию товарного знака а также выбор системы налогооблажения  ",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Разработка и адаптация меню кухни",
+          "description": "Аудит действующего меню. Составление нового концептуального меню.",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Разработка и адаптация меню бара",
+          "description": "Профессиональные шеф-бармены/ концепт-бариста подготовят барную карту, придумают уникальные коктейли (алкогольные, безалкогольные, кофейные напитки).",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Услуга Тайный гость",
+          "description": "После двух посещений в разное время составляем чек-лист, который даст объективную оценку",
+          "icon": "FingerPrintIcon"
+        },
+        {
+          "name": "Подбор линейного и управленческого персонала",
+          "description": "Проводим подбор с помощью набора инструментов:тест Люшера тест на психотип.",
+          "icon": "FingerPrintIcon"
         }
       ]
     },

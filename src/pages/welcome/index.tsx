@@ -1,9 +1,10 @@
-// import { useState } from 'react'
 import About from 'entities/footer';
 import Header from 'entities/header';
 import MainHeroImage from 'entities/mainHeroImage';
 import MainHero from 'entities/mainHero';
 import HeroSection from 'entities/heroSection';
+import Features from '@/entities/features';
+import Product from '@/entities/product';
 function Welcome() {
   return (
     <>
@@ -20,6 +21,8 @@ function Welcome() {
           <MainHeroImage />
         </div>
         <HeroSection />
+        <Features />
+        <Product />
         <About />
       </div>
     </>
