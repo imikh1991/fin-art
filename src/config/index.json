@@ -63,7 +63,7 @@
       "title": "Команда профессионалов в сфере HoReCa",
       "items": [
         {
-          "title": "Комплексный аудит проекта",
+          "title": "Комплексный аудит проекта HoReCa ",
           "description": "Проведем юридическую подготовку бизнеса к открытию ",
           "img": "/img/product1.jpg"
         },
@@ -71,6 +71,46 @@
           "title": "Составление финансовой модели",
           "description": "Составим бизнес-план для привлечения инвесторов и сделаем все красиво",
           "img": "/img/product2.jpg"
+        },
+        {
+          "title": "Рассчет плановых ивестиций",
+          "description": "Проведем юридическую подготовку бизнеса к открытию ",
+          "img": "/img/product3.jpg"
+        },
+        {
+          "title": "Маркетинговый и рыночный анализ",
+          "description": "Составим бизнес-план для привлечения инвесторов и сделаем все красиво",
+          "img": "/img/product4.jpg"
+        },
+        {
+          "title": "Составление бизнес-плана для привлечения инвесторов ",
+          "description": "Проведем юридическую подготовку бизнеса к открытию ",
+          "img": "/img/product5.jpg"
+        },
+        {
+          "title": "Юридическая подготовка к открытию бизнеса",
+          "description": "Составим бизнес-план для привлечения инвесторов и сделаем все красиво",
+          "img": "/img/product1.jpg"
+        },
+        {
+          "title": "Разработка и адаптация меню кухни",
+          "description": "Проведем юридическую подготовку бизнеса к открытию ",
+          "img": "/img/product2.jpg"
+        },
+        {
+          "title": "Разработка и адаптация меню бара",
+          "description": "Профессиональные шеф-бармены/ концепт-бариста подготовят барную карту, придумают уникальные коктейли и сделаем все красиво",
+          "img": "/img/product3.jpg"
+        },
+        {
+          "title": "Услуга Тайный гость",
+          "description": "После двух посещений в разное время составляем чек-лист, который даст объективную оценку бизнеса к открытию ",
+          "img": "/img/product4.jpg"
+        },
+        {
+          "title": "Подбор линейного и управленческого персонала",
+          "description": "Проводим подбор с помощью набора инструментов:тест Люшера тест на психотип. инвесторов и сделаем все красиво",
+          "img": "/img/product5.jpg"
         }
       ]
     },
@@ -131,42 +171,53 @@
         }
       ]
     },
-    "pricing": {
-      "title": "Pricing",
+    "workshops": {
+      "title": "Наши видео презентации Воркшоп",
       "items": [
         {
-          "name": "Free",
-          "price": "$0",
-          "priceDetails": "for one user",
-          "features": [
-            "1 user",
-            "Basic Support",
-            "1 GB of storage",
-            "Email support"
-          ]
+          "id": 1,
+          "name": "Наше выступление в Воронеже",
+          "href": "#",
+          "description": "Воронеж город мечты Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+          "date": "Mar 16, 2023",
+          "datetime": "2023-03-16",
+          "category": { "title": "Marketing", "href": "#" },
+          "author": {
+            "name": "Тимофей Кобетяк",
+            "role": "Co-Founder / CTO",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
         },
         {
-          "name": "Pro",
-          "price": "$15",
-          "priceDetails": "per user",
-  
-          "features": [
-            "5 users",
-            "Priority Support",
-            "10 GB of storage",
-            "Phone and Email support"
-          ]
+          "id": 2,
+          "name": "Наше выступление обучение в Сочи",
+          "href": "#",
+          "description": "Doloremque quo possimus dolor voluptate quod. Harum ut quasi quia corporis eum autem omnis. Maxime sit similique quisquam corporis excepturi. Corporis delectus soluta id facere non ducimus consequatur nemo. Consequuntur quas itaque natus excepturi ut aut. Deleniti et vitae.",
+          "date": "Apr 1, 2023",
+          "datetime": "2023-04-01",
+          "category": { "title": "SEO", "href": "#" },
+          "author": {
+            "name": "Тимофей Кобетяк",
+            "role": "Digital Marketing Manager",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
         },
         {
-          "name": "Enterprise",
-          "price": "$29",
-          "priceDetails": "per user",
-          "features": [
-            "50 users",
-            "24/7 Support",
-            "100 GB of storage",
-            "Phone and Email support"
-          ]
+          "id": 3,
+          "name": "Мастер класс на фестивале в Красной Поляне",
+          "href": "#",
+          "description": "Culpa esse doloremque hic rerum. Quasi est vero incidunt qui ad magni quisquam non. Dolores est et tempora rem soluta consectetur. Velit explicabo distinctio eos repellat quis suscipit libero. Sunt adipisci enim ut est sapiente mollitia alias eveniet. Dolore quam pariatur velit eos quo.",
+          "date": "May 10, 2023",
+          "datetime": "2023-05-10",
+          "category": { "title": "Web Development", "href": "#" },
+          "author": {
+            "name": "Тимофей Кобетяк",
+            "role": "Lead Full Stack Developer",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
         }
       ]
     },

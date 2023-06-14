@@ -3,8 +3,10 @@ import Header from 'entities/header';
 import MainHeroImage from 'entities/mainHeroImage';
 import MainHero from 'entities/mainHero';
 import HeroSection from 'entities/heroSection';
-import Features from '@/entities/features';
-import Product from '@/entities/product';
+import Features from 'entities/features';
+import Product from 'entities/product';
+import Workshops from 'entities/workshops';
+import Contact from 'entities/contact';
 function Welcome() {
   return (
     <>
@@ -23,6 +25,8 @@ function Welcome() {
         <HeroSection />
         <Features />
         <Product />
+        <Workshops />
+        <Contact />
         <About />
       </div>
     </>
