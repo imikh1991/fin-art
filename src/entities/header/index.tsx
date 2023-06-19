@@ -54,7 +54,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-9 md:pr-4 md:space-x-8">
+            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 cursor-pointer bg-fixed opacity-90 transition duration-300 ease-in-out hover:scale-110">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -67,8 +67,8 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-              <a href="#" className={`font-small text-secondary hover:text-secondary`}>
-                Позвонить
+              <a href="#" className={`font-medium text-primary hover:text-secondary`}>
+                Call
               </a>
             </div>
           </nav>
