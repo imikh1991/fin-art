@@ -43,7 +43,9 @@ export default function Workshops() {
                 <div>
                   <iframe
                     className="w-full aspect-[4/3]"
-                    src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="https://www.youtube.com/embed/uZwBnbN2cYY"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   ></iframe>
                 </div>
               </div>
