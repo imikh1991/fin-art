@@ -31,11 +31,7 @@ export default function Welcome() {
           <Workshops />
         </>
       </LazyShow>
-      <LazyShow>
-        <>
-          <Features />
-        </>
-      </LazyShow>
+
       <LazyShow>
         <>
           <Contact />
