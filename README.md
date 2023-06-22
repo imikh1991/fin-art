@@ -1,6 +1,6 @@
 # React.tsx Landing Page for fin-art 
 
-## <a href=""> DEMO</a>
+## <a href="https://fin-art.netlify.app"> DEMO</a>
 
 <img src="" width="100%" height="auto" />
 

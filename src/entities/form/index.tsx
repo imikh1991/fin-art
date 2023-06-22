@@ -53,6 +53,7 @@ export default function Form() {
     try {
       setStatus('Sending...');
       console.log('Из формы data >>', data);
+      console.log('Из формы data >>', setData);
       event.preventDefault();
       // обработаем отправку данных
       const response = await fetch('http://localhost:5173/', {

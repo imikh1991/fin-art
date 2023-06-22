@@ -1,11 +1,11 @@
-import fs from 'fs';
+//import fs from 'fs';
 import express from 'express';
-import path from 'path';
-import cors from 'cors';
+//import path from 'path';
+//import cors from 'cors';
 import nodemailer from 'nodemailer';
-import router from 'express';
+//import router from 'express';
 import { createServer } from 'vite';
-import { fileURLToPath } from 'url';
+//import { fileURLToPath } from 'url';
 import { AUTH_USER, AUTH_PASSWORD } from './const/auth-data';
 // const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -28,7 +28,7 @@ async function startServer() {
   app.use(vite.middlewares);
 
   app.use('*', async (req, res, next) => {
-    const url = req.originalUrl;
+    //const url = req.originalUrl;
     const contactEmail = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -66,6 +66,7 @@ async function startServer() {
 
     try {
       // логика отправки письма
+      // нужно доделывать - здесь ошибка парсинка JSON
     } catch (e) {
       const error = e as Error;
       vite?.ssrFixStacktrace(error);
