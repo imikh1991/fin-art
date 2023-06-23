@@ -26,12 +26,15 @@ export default function Welcome() {
       <LazyShow>
         <>
           <HeroSection />
-          <Features />
           <Product />
+        </>
+      </LazyShow>
+      <LazyShow>
+        <>
+          <Features />
           <Workshops />
         </>
       </LazyShow>
-
       <LazyShow>
         <>
           <Contact />
