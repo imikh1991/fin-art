@@ -68,7 +68,7 @@ const Menu = () => {
                 </Link>
               ))}
               <a href="#" className={`font-medium text-primary hover:text-secondary`}>
-                Call
+                Позвонить
               </a>
             </div>
           </nav>

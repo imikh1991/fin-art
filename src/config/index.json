@@ -15,10 +15,6 @@
       {
         "name": "Продукт",
         "href": "product"
-      },
-      {
-        "name": "Воркшопы",
-        "href": "video"
       }
     ],
     "callToAction": {

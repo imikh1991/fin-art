@@ -5,7 +5,6 @@ import MainHero from 'entities/mainHero';
 import HeroSection from 'entities/heroSection';
 import Features from 'entities/features';
 import Product from 'entities/product';
-import Workshops from 'entities/workshops';
 import Contact from 'entities/contact';
 import LazyShow from 'entities/lazy';
 
@@ -32,7 +31,6 @@ export default function Welcome() {
       <LazyShow>
         <>
           <Features />
-          <Workshops />
         </>
       </LazyShow>
       <LazyShow>
