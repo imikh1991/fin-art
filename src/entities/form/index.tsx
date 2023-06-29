@@ -56,7 +56,7 @@ export default function Form() {
       console.log('Из формы data >>', setData);
       event.preventDefault();
       // обработаем отправку данных
-      const response = await fetch('http://localhost:5173/', {
+      const response = await fetch('http://cloud-resta.ru/send.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json;charset=utf-8',
@@ -74,7 +74,7 @@ export default function Form() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="mx-auto mt-16 max-w-xl sm:mt-20">
-      <div className="grid bg-slate-100 grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label
             htmlFor="first-name"

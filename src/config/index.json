@@ -6,7 +6,7 @@
     "navigation": [
       {
         "name": "О нас",
-        "href": "about"
+        "href": "product"
       },
       {
         "name": "Команда",
@@ -22,8 +22,8 @@
       "href": "#"
     },
     "mainHero": {
-      "title": "Финансы – это искусство",
-      "subtitle": "Мы — команда профессионалов HoReCa",
+      "title": "Финансы – это искусство. ",
+      "subtitle": " Мы — команда профессионалов HoReCa.",
       "description": "Наша команда поможет вам провести аудит операционной деятельности. Cоставим бизнес-план для привлечения инвесторов. Проведем аудит управленческой отчетности (на основе финансового моделирования). Проведем полную юридическую подготовку бизнеса к открытию и поможем уладить все необходимые тонкости",
       "img": "/img/bg-img.jpeg",
       "primaryAction": {
@@ -182,24 +182,9 @@
     "about": {
       "sections": [
         {
-          "name": "Something",
+          "name": "Наверх",
           "href": "#",
-          "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-        },
-        {
-          "name": "Something",
-          "href": "#",
-          "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-        },
-        {
-          "name": "Something",
-          "href": "#",
-          "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-        },
-        {
-          "name": "Something",
-          "href": "#",
-          "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          "content": "team"
         }
       ],
       "socialMedia": {

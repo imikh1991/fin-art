@@ -2,23 +2,12 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-scroll';
-import { useTranslation } from 'react-i18next';
-import i18n from 'i18n';
-import { useState } from 'react';
-import classes from './style.module.scss';
 import config from '../../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
   const { name: companyName, logo } = company;
-  // используем перевод для локализации
-  const { t } = useTranslation();
-  const [activeLang, setActiveLang] = useState(i18n.language);
-
-  const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
-    setActiveLang(lang);
-  };
+  // нужно реализовать локализацию в следующий спринт
 
   return (
     <>
@@ -125,25 +114,7 @@ const Menu = () => {
               </a>
               <div
                 className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
-              >
-                <span
-                  className={`${classes.langs__item} ${
-                    activeLang === 'en' && classes.langs__item_active
-                  }`}
-                  onClick={() => changeLanguage('en')}
-                >
-                  {t('header.lang.en')}
-                </span>
-                /
-                <span
-                  className={`${classes.langs__item} ${
-                    activeLang === 'ru' && classes.langs__item_active
-                  }`}
-                  onClick={() => changeLanguage('ru')}
-                >
-                  {t('header.lang.ru')}
-                </span>
-              </div>
+              ></div>
             </div>
           </Popover.Panel>
         </Transition>

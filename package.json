@@ -11,9 +11,7 @@
     "test": "vitest",
     "lint": "eslint --ext .tsx,.ts src/",
     "fix": "eslint --ext .tsx,.ts src/ --fix",
-    "lint:write": "eslint --debug src/ --fix",
-    "build:css": "tailwindcss -m -i src/app/index.scss -o ./dist/output.css",
-    "dev:css": "tailwindcss -w -i src/app/index.scss -o ./dist/output.css"
+    "lint:write": "eslint --debug src/ --fix"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",
